@@ -1,0 +1,47 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background: linear-gradient(90deg, #fc466b 0%, #3f5efb 100%);
+}
+label input {
+  display: none; /* Hide the default checkbox */
+}
+.list {
+  border: 5px solid #ccc;
+  padding: 10px 10px 40px 10px;
+  margin-bottom: 5px;
+}
+.Multi {
+  padding: 20px 0;
+}
+.listName {
+  font-weight: bold;
+  color: #fff;
+}
+.description {
+  color: #fff;
+}
+.MuiFormControl-root {
+  margin: 15px !important;
+}
+.MuiFormLabel-root,
+.MuiInputLabel-animated {
+  color: #fff !important;
+}
+.MuiIconButton-root.Mui-disabled {
+  color: rgba(13, 9, 9, 1) !important;
+  background-color: transparent;
+}
+.list {
+  background: #613691 !important;
+}
+label,
+label.MuiFormLabel-root {
+  color: #fff;
+  font-size: 14px;
+}
+button.MuiIconButton-colorPrimary,
+input.MuiInputBase-input {
+  color: #fff;
+}
